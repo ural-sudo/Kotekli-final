@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu"
+            android:title="Anasayfa" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/menu"
+            android:title="Mekanlar" />
+        <item
+            android:id="@+id/nav_haberler"
+            android:icon="@drawable/menu"
+            android:title="Haberler" />
+        <item
+            android:id="@+id/nav_duyurular"
+            android:icon="@drawable/menu"
+            android:title="Duyurular" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/menu"
+            android:title="Hakkımızda" />
+        <item
+            android:id="@+id/galeri"
+            android:icon="@drawable/menu"
+            android:title="Galeri" />
+        <item
+            android:id="@+id/nav_iletisim"
+            android:icon="@drawable/menu"
+            android:title="İletişim" />
+        <item
+            android:id="@+id/nav_giris"
+            android:icon="@drawable/menu"
+            android:title="Giriş" />
+        <item
+            android:id="@+id/nav_kayit"
+            android:icon="@drawable/menu"
+            android:title="Kayıt Ol" />
+    </group>
+</menu>

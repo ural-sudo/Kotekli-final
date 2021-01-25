@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kotekli</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kötekli Rehber</string>
+    <string name="nav_header_subtitle">koteklirehber@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="menu_home">KötekliRehber</string>
+    <string name="menu_gallery">Mekanlar</string>
+    <string name="menu_slideshow">Hakkımızda</string>
+</resources>

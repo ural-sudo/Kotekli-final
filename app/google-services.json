@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "932274001313",
+    "project_id": "kotekli",
+    "storage_bucket": "kotekli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932274001313:android:db49c5ebcde14a041867e0",
+        "android_client_info": {
+          "package_name": "kotekli.rehber.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932274001313-dh3g7kiec8edq2jrfvtqb5noqcpcpv7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9kwTrQTHmAN-NZ-kFzH36hVWFTJPR8g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932274001313-dh3g7kiec8edq2jrfvtqb5noqcpcpv7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

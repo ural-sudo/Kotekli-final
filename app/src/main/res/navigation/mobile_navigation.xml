@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="kotekli.rehber.project.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="kotekli.rehber.project.ui.mekanlar.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="kotekli.rehber.project.ui.hakkımızda.HakkımızdaFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_hakkimizda" />
+
+    <fragment
+        android:id="@+id/galeri"
+        android:name="kotekli.rehber.project.ui.galeri.GaleriFragment"
+        android:label="Galeri"
+        tools:layout="@layout/fragment_galeri" />
+    <fragment
+        android:id="@+id/nav_giris"
+        android:name="kotekli.rehber.project.ui.giris.GirisFragment"
+        android:label="Giriş Yap"
+        tools:layout="@layout/fragment_giris" />
+    <fragment
+        android:id="@+id/nav_kayit"
+        android:name="kotekli.rehber.project.ui.kayit.KayitFragment"
+        android:label="Kayıt Ol"
+        tools:layout="@layout/fragment_kayit" />
+    <fragment
+        android:id="@+id/nav_haberler"
+        android:name="kotekli.rehber.project.ui.haberler.HaberlerFragment"
+        android:label="Haberler"
+        tools:layout="@layout/fragment_haberler" />
+    <fragment
+        android:id="@+id/nav_duyurular"
+        android:name="kotekli.rehber.project.ui.duyurular.DuyurularFragment"
+        android:label="Duyurular"
+        tools:layout="@layout/fragment_duyurular" />
+    <fragment
+        android:id="@+id/nav_iletisim"
+        android:name="kotekli.rehber.project.ui.iletisim.IletisimFragment"
+        android:label="İletişim"
+        tools:layout="@layout/fragment_iletisim" />
+</navigation>
